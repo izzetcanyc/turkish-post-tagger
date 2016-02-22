@@ -3,6 +3,7 @@ Automatic Keyword Tagging Tool For Turkish
 
 Meta tags are the best way to provide information about your sites in search engine. Meta tags added to <head> section of HTML page's and usually looks like this:
 
+```
 <!DOCTYPE html>
 <html>
   <head>
@@ -10,7 +11,8 @@ Meta tags are the best way to provide information about your sites in search eng
     <meta name="Description" CONTENT="Yazar: Reşat Nuri Güntekin,  Kategori: Roman, Fiyat:  20,00 TL, Uzunluk: 400 sayfa">
     <meta name="google-site-verification" content="**********************************"/>
     <title>Örnek Türk Edebiyatı Eserleri</title>
-    <meta name="robots" content="noindex,nofollow">
+`    <meta name="robots" content="noindex,nofollow">
+````
 
 The first meta tag provides a simple explanation for website.In some cases used as part of the snippet shown in the search engine results.
 
@@ -23,10 +25,14 @@ In this project, we present you an auto keyword tagger tool which can suggest yo
 
 ## Run
 
-`>>run command`
+`>> run command`
 
 ## Project Development Steps
 
 * Creating Keyword Dictonary for Keyword Selection from Input Document
 * Keyword Tagging and export Tagged Document to user
 
+## Usage Areas
+
+* Plugin for Wordpress or Joomla
+* Office Plugin for Web Editors
